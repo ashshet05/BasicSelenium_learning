@@ -1,6 +1,6 @@
 package InterviewQuestionSolutions;
 
-public class CountofUppercaseAndLowercaseLetters {
+public class CountofUppercaseAndLowercaseLettersEx {
 
 	public static void main(String[] args) 
 	{
