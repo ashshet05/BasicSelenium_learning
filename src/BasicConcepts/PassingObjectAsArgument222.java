@@ -1,6 +1,6 @@
 package BasicConcepts;
 
-class DebitCard
+class DebitCard1
 {
 	int cardNum=32322;
 	void drawCash()
@@ -10,9 +10,9 @@ class DebitCard
 	
 }
 
-class Bank
+class Bank1
 {
-	void atm(DebitCard ref)
+	void atm(DebitCard1 ref)
 	{
 		System.out.println("Welcome to ATM");
 		System.out.println(ref.cardNum);
@@ -26,8 +26,8 @@ public class PassingObjectAsArgument222 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Bank b=new Bank();
-		b.atm(new DebitCard());
+		Bank1 b=new Bank1();
+		b.atm(new DebitCard1());
 	}
 
 }
