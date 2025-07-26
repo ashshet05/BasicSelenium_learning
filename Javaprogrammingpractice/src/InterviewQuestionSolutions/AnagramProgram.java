@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class AnagramProgram {
 	public static void main(String[] args) 
 	{
-		/*System.out.println("Enter the first String\n");
+		System.out.println("Enter the first String\n");
 		Scanner sc=new Scanner(System .in);
 		String str1=sc.nextLine();
 		System.out.println("Enter the Second String\n");
@@ -37,28 +37,9 @@ public class AnagramProgram {
 			
 			return(Arrays.equals(str1, str2));
 			
-		}*/
-		
-		String str1="Listen", str2="ssffea";
-		
-		if(str1.length()!=str2.length())
-			System.out.println("Strings are not anagrams");
-		else
-		{
-			str1=str1.replaceAll("\\s", "");
-			str2=str2.replaceAll("\\s", "");
-			
-			char[] ch1=str1.toLowerCase().toCharArray();
-			char[] ch2=str2.toLowerCase().toCharArray();
-			
-			Arrays.sort(ch1);
-			Arrays.sort(ch2);
-			
-			if(Arrays.equals(ch1, ch2))
-				System.out.println("Strings are anagrams");
-			else
-				System.out.println("Strings are not anagrams");
 		}
+		
+		
 	}
 	
 }
